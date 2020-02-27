@@ -27,6 +27,7 @@ public class TestingAddFunction {
 	public void Both_Zero() {
 		x=new test();
 
+
 		double add=x.add(0, 0);
 		assertTrue("both zeros and output shoudl be zero",0.0==add);
 
